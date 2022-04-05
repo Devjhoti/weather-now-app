@@ -1,0 +1,54 @@
+@font-face {
+    font-family: pop;
+    src: url(/css/fonts/Poppins-Regular.ttf);
+}
+body{
+    font-family: pop;
+    padding: 0;
+    margin: 0;
+}
+#search-area{
+    padding-top: 70px;
+}
+#search-field{
+    height: 40px;
+    width: 400px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+#search-btn{
+    font-size: 1.1em;
+    color: white;
+    width: 100px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #C82333;
+}
+#background{
+    position: fixed;
+    width: 100%;
+    /* height: 10vh; */
+    /* background: url('https://programminghero1.github.io/temperature-hot/images/bg-image.jpg') no-repeat center; */
+    z-index: -1;
+}
+p{
+    /* padding-top: 35px; */
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#result{
+    margin-top: 40px;
+}
+#img-div{
+    margin-top: 20px;
+}
+#img-div img{
+    display: block;
+    margin: auto;
+}
