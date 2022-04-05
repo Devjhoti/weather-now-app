@@ -2,7 +2,7 @@ var myAPI = '362bb816f1c458f89a42e167fbdded5a';
 function loadCity() {
     const searchField = document.getElementById('search-field');
     let searchedCity = searchField.value;
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${searchedCity}&appid=${myAPI}`
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${searchedCity}&appid=${myAPI}`
     fetch(url)
         .then(res => res.json())
         .then(data => displayCity(data[0]));
